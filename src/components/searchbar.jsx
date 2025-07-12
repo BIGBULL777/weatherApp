@@ -12,12 +12,13 @@ function SearchBar({ onSearch }) { // onSearch will be a function passed from Ap
   return (
     <form onSubmit={handleSubmit}>
       <input
+      className='searchbar'
         type="text"
         placeholder="Enter city name"
         value={city}
         onChange={(e) => setCity(e.target.value)}
       />
-      <button type="submit">Get Weather</button>
+      <button type="submit" className='Button' >Get Weather</button>
     </form>
   );
 }

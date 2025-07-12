@@ -12,6 +12,22 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* src/App.css */
+
+.Button {
+  margin-left: 5px; 
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchbar{
+  padding: 10px 15px;
+  border-radius: 4px;
+}
 
 .App-header {
   background-color: #282c34;
